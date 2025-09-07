@@ -14,10 +14,7 @@ export default function Projects() {
         <p className="mb-3">Our students will develop strong moral character alongside the practical skills needed to thrive in the modern world. This integrated approach addresses the dilemma many youths face and equips them to become both pious and professionally capable leaders.</p>
         <p className="mb-3">This vision can only become a reality with community support. We need compassionate individuals and organizations to partner with us. Your donations and voluntary contributions are crucial for establishing the facility, developing the curriculum, and providing scholarships for deserving students. Join us in building a new model of education in Nigeria.</p>
       </section>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-4">
-        <img src="/src/assets/react.svg" alt="GitHub Logo" className="h-24 w-24" />
-        <span className="text-white text-2xl font-bold">Visit My GitHub</span>
-      </a>
+  {/* GitHub button removed for cleaner mobile view */}
     </main>
   );
 }

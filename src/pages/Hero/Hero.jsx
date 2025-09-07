@@ -135,7 +135,7 @@ const profile = {
     <>
       <main className="bg-[#020617] text-white min-h-screen">
         <section
-          className="hero min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8 py-10 md:py-16 lg:py-0 hero-section-padding"
+          className="hero min-h-screen flex items-center justify-center relative px-2 sm:px-4 lg:px-8 py-6 md:py-12 lg:py-0 hero-section-padding"
           style={{ paddingTop: "var(--hero-padding-top, 0)" }}
         >
           <div className="absolute inset-0"></div>
@@ -182,7 +182,7 @@ const profile = {
 
               {/* Name section with Islamic image */}
               <div className="relative mb-6 sm:mb-8 flex flex-col items-center">
-                <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-4">
+                <h1 className="text-xl sm:text-3xl lg:text-7xl font-bold leading-tight mb-3">
                   <SparklesText text="Assalamu Alaikum" />
                   <span className="relative inline-block">
                     I&apos;m
@@ -197,7 +197,7 @@ const profile = {
               </div>
 
               {/* Role badge */}
-              <div className="inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-xl sm:rounded-2xl bg-gradient-to-r from-blue-500/10 to-teal-500/10 border border-blue-500/20 mb-6 sm:mb-8 backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-1s">
+              <div className="inline-flex items-center gap-2 sm:gap-3 px-3 sm:px-5 py-1.5 sm:py-2.5 rounded-xl sm:rounded-2xl bg-gradient-to-r from-blue-500/10 to-teal-500/10 border border-blue-500/20 mb-4 sm:mb-8 backdrop-blur-sm animate__animated animate__fadeInUp animate__delay-1s">
                 <i className="fas fa-rocket text-blue-400 animate-bounce text-sm sm:text-base"></i>
                 <span>
                   <FlipWords
@@ -208,20 +208,20 @@ const profile = {
               </div>
 
               {/* Description */}
-              <div className="relative mb-8 sm:mb-12 max-w-xl">
+              <div className="relative mb-6 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
                   Ustadh Abdul Lateef | Teaching tech by integrating Quran and Islamic values. Making Islamic learning first, then technology. Inspiring parents: education is beyond classrooms.
                 </p>
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 animate__animated animate__fadeInUp animate__delay-2s">
                 {/* View Projects Button */}
                 <a
                   href="https://github.com/"
-                  className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
+                  className="group relative inline-flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
+                  <span className="block w-full px-4 sm:px-6 py-2 sm:py-3 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
                       <img src="/src/assets/react.svg" alt="GitHub Logo" className="h-5 w-5" />
                       <span>My GitHub</span>
@@ -235,9 +235,9 @@ const profile = {
                   href="https://wa.me/2348054282302"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-green-500 to-teal-400 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#34D399]"
+                  className="group relative inline-flex items-center justify-center gap-2 p-0.5 rounded-xl bg-gradient-to-r from-green-500 to-teal-400 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#34D399]"
                 >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-green-500/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-green-500 group-hover:to-teal-400">
+                  <span className="block w-full px-4 sm:px-6 py-2 sm:py-3 rounded-[11px] bg-gray-900 border border-green-500/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-green-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-green-300 font-medium group-hover:text-white">
                       <span>WhatsApp Me</span>
                       <i className="fab fa-whatsapp transform transition-all duration-300 group-hover:rotate-12"></i>

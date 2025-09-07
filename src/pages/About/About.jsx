@@ -26,36 +26,10 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Assalamu Alaikum! I'm Abu Abdillah, known as Ustadh Abdul Lateef. My passion is teaching technology by integrating the Quran and Islamic core values, making Islamic learning the foundation before anything else. I believe education is not limited to the four walls of a classroom, and being a Ustadh doesn't stop you from helping Islam with technology.
-              </p>
-              <p className="text-white">
-                I encourage parents to see that true education goes beyond formal settings. My mission is to empower the Ummah with tech skills while keeping Islamic principles at the heart of every lesson. Join me as we make learning Islam and technology a journey for all.
-              </p>
+                My passion is teaching Quran and Islamic knowledge, and also benefiting the young generation with tech skills that will aid them in life and beyond. I believe true success is when our youth are grounded in faith and empowered with practical skills for the modern world. Imagine a world where our generation leads the way in technology, building innovations that change the world for good—while never losing sight of their Islamic values. I dream of Muslim youth who are creators, innovators, and leaders in AI, software, and data science, using their skills to uplift their communities and serve humanity.
 
-              <div className="pt-6">
-                <blockquote className="border-l-4 border-gray-300 pl-4">
-                  <p className="text-white">
-                    "Technology is a tool, but Islam is the foundation. Let's build a future where our children excel in tech and faith, and where every Ustadh can use technology to benefit Islam."
-                  </p>
-                  <div className="mt-6 space-y-3">
-                    <cite className="block font-medium text-white">
-                      Abu Abdillah (Ustadh Abdul Lateef)
-                    </cite>
-                    <div className="flex items-center gap-2">
-                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                        <img
-                          className="h-5 w-fit"
-                          src={GithubLogo}
-                          alt="GitHub Logo"
-                          height="20"
-                          width="auto"
-                        />
-                      </a>
-                      <span className="text-white">My GitHub</span>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
+                Parents, your greatest legacy is not just in what you provide, but in how you inspire your children to excel in both faith and achievement. Encourage them to seek knowledge, nurture their curiosity, and guide them to use technology as a tool for positive change. Together, let’s raise a generation that is confident, capable, and guided by the light of Islam—ready to shape the future and leave a mark of excellence and integrity.
+              </p>
             </div>
           </div>
         </div>

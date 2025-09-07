@@ -62,6 +62,22 @@ const ExperienceSection = () => {
         "With humility and love, I teach students how to memorize the Quran and understand Islam according to the way of the Salaf. My goal is to inspire hearts to connect deeply with the Book of Allah and the authentic teachings of our pious predecessors.",
     },
     {
+      icon: Layers,
+      title: "Django Stack Developer",
+      company: "Django Projects",
+      period: "2023 - Present",
+      description:
+        "Building scalable web applications using Django, Python, PostgreSQL, and REST APIs. Experienced in backend development, authentication, and deploying robust solutions for real-world needs.",
+    },
+    {
+      icon: Binary,
+      title: "MERN Stack Developer",
+      company: "MERN Projects",
+      period: "2024 - Present",
+      description:
+        "Developing full-stack applications using MongoDB, Express.js, React, and Node.js. Skilled in creating modern, responsive user interfaces and efficient server-side logic for dynamic web platforms.",
+    },
+    {
       icon: Activity,
       title: "Collaborative Django Project",
       company: "Local Engineers",

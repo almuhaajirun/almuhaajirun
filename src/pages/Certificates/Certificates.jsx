@@ -11,7 +11,7 @@ import c7 from "../../assets/images/c7.png";
 import cer from "../../assets/images/cer.png";
 import cer2 from "../../assets/images/cer2.png";
 
-const certificateImages = [cer, cer2, c1, c2a, c3, c4, c5, c6, c7];
+const certificateImages = [c1, c2a, c3, c4, c5, c6, c7];
 
 const Certificates = () => {
   return (
@@ -34,7 +34,7 @@ const Certificates = () => {
             Abu Abdillah's Certificates
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Here are my achievements and certifications. Each certificate is a step in my journey of learning and teaching tech with Islamic values.
+            Certificates are just pieces of paper—what truly matters are your skills and what you can offer to others. These certificates are here for those who may need them or admire them, but real value comes from your ability to solve problems, help people, and make a difference. Focus on building your skills and character; certificates are secondary.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
